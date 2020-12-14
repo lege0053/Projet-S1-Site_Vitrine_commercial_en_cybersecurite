@@ -1,44 +1,47 @@
-nav {
-    text-align: center;
-    background-color: rgb(195, 155, 211);
-    color: black;
-    padding: 15px;
-    font-weight: 300;
-    font-size: 1.5em;
-    padding-bottom: 20px;
-    padding-right: 50px;
-    padding: 20px 20px 20px 0px;
+/* Nav bar */
+
+body{
+    margin: 0;
+    pad: 0;
 }
-body {
-    background-color: white;
-    font-family: Raleway, sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    margin: 0; /* marges évitées */
-    background-position: center;
-}
-img {
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    background-attachment: fixed;
-}
-.container .text {
-    z-index: 1;
-    position: absolute;
-    text-align: center;
-    font-family: Georgia;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 38%;
-    color: white;
-    width: 70%;
-}
-nav a:link,nav a:hover, nav a:visited, nav a:active {
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background: #FAB1A0;
     color:black;
-    font-size: 18px;
-    font-style: normal;
 }
+
+.navbar-links {
+    height: 100%;
+  }
+  
+  .navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    list-style: none;
+  }
+  
+  .navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    font-family:sans-serif ;
+    font-weight: bold;
+    
+  }
+  
+  .navbar-links li:hover {
+    background: #f0917c;
+  }
+
+  h1{
+      text-align: center;
+      padding:30px
+  }
