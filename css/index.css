@@ -1,0 +1,44 @@
+nav {
+    text-align: center;
+    background-color: rgb(195, 155, 211);
+    color: black;
+    padding: 15px;
+    font-weight: 300;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding: 20px 20px 20px 0px;
+}
+body {
+    background-color: white;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0; /* marges évitées */
+    background-position: center;
+}
+img {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-attachment: fixed;
+}
+.container .text {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 38%;
+    color: white;
+    width: 70%;
+}
+nav a:link,nav a:hover, nav a:visited, nav a:active {
+    color:black;
+    font-size: 18px;
+    font-style: normal;
+}
