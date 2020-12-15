@@ -48,7 +48,59 @@ body{
 
   video {
     display:block;
-    width:100%;
+    width:50%;
     margin:auto;
     padding:auto;
+    margin-top: 60px;
   }
+
+  .footerPos {
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+  
+  footer {
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    height: 100px;
+    background: #FAB1A0;
+    z-index: 2; 
+  }
+  
+  .footerIMG1 img {
+    margin-right: 98%;
+    margin-top: 2%;
+    width: 5%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  .footerIMG2 img {
+    margin-left: 95%;
+    margin-top: 2.5%;
+    width: 5%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  
+  footer .text{
+    margin-left: 55px;
+  }
+  
+  @media (max-width: 480px) {
+    footer .text{
+      font-size: 15px;
+      text-align: center;
+      margin-left: 0px;
+    }
+    .footerIMG1 img {
+      display: none;
+    }
+  }
+  
+  
