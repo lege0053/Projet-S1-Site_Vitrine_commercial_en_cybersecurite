@@ -1,8 +1,9 @@
 /* Nav bar */
 
-body{
+html{
     margin: 0;
     pad: 0;
+    width: 100%;
 }
 .navbar {
     display: flex;
@@ -10,11 +11,18 @@ body{
     justify-content: space-between;
     align-items: center;
     background: #FAB1A0;
-    color:black;
+    color:white;
+}
+
+.clavier{
+  z-index :-1;
+  width: 100%;
+  text-align: center;
 }
 
 .navbar-links {
     height: 100%;
+
   }
   
   .navbar-links ul {
@@ -30,8 +38,8 @@ body{
   .navbar-links li a {
     display: block;
     text-decoration: none;
-    color: black;
-    padding: 1rem;
+    color: white;
+    padding: 0.3rem;
     font-family:sans-serif ;
     font-weight: bold;
     
@@ -40,6 +48,7 @@ body{
   .navbar-links li:hover {
     background: #f0917c;
   }
+
 
   h1{
       text-align: center;
@@ -54,14 +63,10 @@ body{
     margin-top: 60px;
   }
 
-  .footerPos {
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-  }
+ 
   
   footer {
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     width: 100%;
     padding-top: 50px;
@@ -71,16 +76,16 @@ body{
   }
   
   .footerIMG1 img {
-    margin-right: 98%;
-    margin-top: 1.2%;
-    width: 5%;
+    margin-left: 2%;
+    margin-top: 2.5%;
+    width: 4%;
     position: absolute;
     top: 0px;
     left: 0px;
   }
 
   .footerIMG2 img {
-    margin-left: 95%;
+    margin-left: 7%;
     margin-top: 2.5%;
     width: 5%;
     position: absolute;
