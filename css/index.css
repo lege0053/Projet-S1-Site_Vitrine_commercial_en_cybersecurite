@@ -1,8 +1,6 @@
 /* Nav bar */
 
 html{
-    margin: 0;
-    pad: 0;
     width: 100%;
 }
 .navbar {
@@ -19,6 +17,15 @@ html{
   width: 100%;
   text-align: center;
 }
+article{
+
+  background-color: #B2BEC3;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 40px;
+}
+  
+
 
 .navbar-links {
     height: 100%;
@@ -72,8 +79,12 @@ html{
     padding-top: 50px;
     height: 100px;
     background: #FAB1A0;
-    z-index: 2; 
+    z-index: 2;
+    position: absolute;
+    bottom: -669px;
   }
+    
+
   
   .footerIMG1 img {
     margin-left: 2%;
@@ -82,6 +93,8 @@ html{
     position: absolute;
     top: 0px;
     left: 0px;
+    position: absolute;
+    bottom: -669px;
   }
 
   .footerIMG2 img {
@@ -91,10 +104,16 @@ html{
     position: absolute;
     top: 0px;
     left: 0px;
+    position: absolute;
+    bottom: -669px;
+    position: absolute;
+    bottom: -669px;
   }
   
   footer .text{
     margin-left: 55px;
+    position: absolute;
+    bottom: -669px;
   }
   
   @media (max-width: 480px) {
@@ -103,7 +122,7 @@ html{
       text-align: center;
       margin-left: 0px;
     }
-    .footerIMG1 img {
+    .footerIMG1 {
       display: none;
     }
   }
