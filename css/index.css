@@ -1,14 +1,21 @@
 /* Nav bar */
 
-html{
-    width: 100%;
+
+body{
+  padding: 0px;
+  margin: 0px;
+  background-size:c;
+  
 }
+
+
+
 .navbar {
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background: #FAB1A0;
+    background: #274555;
     color:white;
 }
 
@@ -19,10 +26,11 @@ html{
 }
 article{
 
-  background-color: #B2BEC3;
+  background-color:#dddfe6;
   border-radius: 20px;
-  padding: 20px;
-  margin: 40px;
+  padding: auto;
+  margin: auto;
+ 
 }
   
 
@@ -53,7 +61,7 @@ article{
   }
   
   .navbar-links li:hover {
-    background: #f0917c;
+    background:#233b47;
   }
 
 
@@ -78,7 +86,7 @@ article{
     width: 100%;
     padding-top: 50px;
     height: 100px;
-    background: #FAB1A0;
+    background: #274555;
     z-index: 2;
     position: absolute;
     bottom: -669px;
@@ -119,12 +127,7 @@ article{
   @media (max-width: 480px) {
     footer .text{
       font-size: 15px;
-      text-align: center;
+      text-align: right;
       margin-left: 0px;
-    }
-    .footerIMG1 {
-      display: none;
-    }
+    }           
   }
-  
-  
