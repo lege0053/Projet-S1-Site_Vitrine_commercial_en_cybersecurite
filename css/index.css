@@ -1,136 +1,146 @@
-/* Nav bar */
 
-
-body{
+body, html {
   padding: 0px;
   margin: 0px;
-  background-size:c;
-  
 }
 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.all{
+  background-color: #d2e1e9;
+  padding: 0%;
+}
 
-.navbar {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
+a, a:hover {
+  text-decoration: none;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+/* header */
+.header{
+  background-color: #274555;
+  height: 55px;
+}
+
+.menu {
     background: #274555;
     color:white;
+    text-align: center;
+    padding-top: 15px;
 }
 
-.clavier{
-  z-index :-1;
+.menu a{
+    color: white;
+    margin: 10px; 
+}
+
+.menu a:hover{
+  color: #1d333f
+}
+/*banner*/
+
+.banner{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban img{
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 5%;
+  background-color:#d2e1e9;
+}
+
+.inner-banner{
+  position: absolute;
+  bottom:-40%;
+  left: 23%;
   width: 100%;
   text-align: center;
 }
-article{
 
-  background-color:#dddfe6;
-  border-radius: 20px;
-  padding: auto;
-  margin: auto;
- 
+.inner-banner h1{
+  color: white;
+  text-shadow: 1px 1px 20px #274555;
+  font-weight: bold;
 }
-  
 
+/*article*/
 
-.navbar-links {
-    height: 100%;
+.presentation{
+  padding-bottom: 5%;
+}
 
-  }
-  
-  .navbar-links ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar-links li {
-    list-style: none;
-  }
-  
-  .navbar-links li a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 0.3rem;
-    font-family:sans-serif ;
-    font-weight: bold;
-    
-  }
-  
-  .navbar-links li:hover {
-    background:#233b47;
-  }
+.qualiCompet{
+  padding-bottom: 5%;
+}
 
+.formation{
+  padding-bottom: 5%;
+}
 
-  h1{
-      text-align: center;
-      padding:30px
-  }
+article{
+  border-radius: 10px;
+  background-color:#ffffff;
+}
 
-  video {
-    display:block;
-    width:50%;
-    margin:auto;
-    padding:auto;
-    margin-top: 60px;
-  }
+article h2{
+  text-align: center;
+  border-radius: 30px;
+  background-color:#274555;
+  color: white;
+}
 
- 
-  
-  footer {
-    color: #ffffff;
-    text-align: center;
-    width: 100%;
-    padding-top: 50px;
+/*interview*/
+video {
+  display:block;
+  width:50%;
+  margin:auto;
+  padding:auto;
+  margin-top: 60px;
+}
+
+/*footer*/
+  .footer {
     height: 100px;
-    background: #274555;
-    z-index: 2;
+    background-color: #274555;
+  }
+
+  .footerTXT {
+    color: white;
     position: absolute;
-    bottom: -669px;
+    margin-left: 2%;
+
   }
     
-
-  
   .footerIMG1 img {
-    margin-left: 2%;
-    margin-top: 2.5%;
-    width: 4%;
     position: absolute;
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    bottom: -669px;
+    width: 5%;
+    padding-top: 1%;
   }
 
   .footerIMG2 img {
-    margin-left: 7%;
-    margin-top: 2.5%;
     width: 5%;
     position: absolute;
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    bottom: -669px;
-    position: absolute;
-    bottom: -669px;
+    padding-top: 1%;
   }
-  
-  footer .text{
-    margin-left: 55px;
-    position: absolute;
-    bottom: -669px;
-  }
-  
+    
   @media (max-width: 480px) {
     footer .text{
       font-size: 15px;
       text-align: right;
       margin-left: 0px;
     }           
-  }
 
 /*--------------------------------------------------------------
 # Team
