@@ -1,0 +1,114 @@
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active,
+.form-control:focus
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(235,235,235,1);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.navbar{
+  background: #a29bfe;
+  color: white;
+}
+
+h1, h2, h4 {
+	color:rgba(100,100,100,1);
+}
+
+.bg-box{
+	background-color: rgba(255,255,255,0.3);
+}
+
+.box-color{
+	color: rgba(100,100,100,1);
+}
+
+.role{
+	color: rgba(180,180,180,1);
+}
+
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.footer-color{
+	background: #a29bfe;
+  	color: white;
+}
+
+.menu-open{
+	background-color: #a29bfe;
+	position:fixed;
+	z-index: 1000000000;
+	right:0;
+	top:0;
+	height: 100%;
+	transition: 1s;
+}
+.menu-close{
+	background-color: #a29bfe;
+	position:fixed;
+	z-index: 1000000000;
+	right:-300px;
+	top:0;
+	height: 100%;
+	transition: 1s;
+}
+.menu-lst{
+	margin-right: 30px;
+}
+.menu-lst a{
+	color:white;
+	text-decoration: none;
+	list-style: none;
+	text-align: right;
+	line-height: 70px;
+	transition: 0.3s;
+
+}
+.menu-btn{
+	background: none;
+	border:none;
+}
+.menu-lst a:hover{
+	color:rgba(255,255,255,0.5);
+	text-decoration: none;
+	list-style: none;
+	text-align: right;
+	line-height: 70px;
+	transition: 0.3s;
+}
+
+.separator{
+	border-bottom: 1px solid rgba(200,200,200,1); 
+}
+
+.ressource-list{
+	list-style: none;
+}
